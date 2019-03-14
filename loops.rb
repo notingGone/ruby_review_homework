@@ -43,3 +43,17 @@ puts
 x = 'apple'
 6.times { x = 'banana'; puts x }
 puts x
+
+puts
+
+#8 puts banana 6 times then apple
+6.times { x = 'banana'; puts x }
+x = 'apple'
+puts x
+
+puts
+
+#9
+countdown = [1, 2, 3, 4, 5]
+countdown.each_index { |i| puts countdown.reverse[i] }
+puts 'Blastoff!'
